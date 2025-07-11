@@ -25,8 +25,8 @@ A URL shortener backend built with NestJS, MongoDB, and Mongoose.
 
 ### 1. Clone & Install
 ```bash
-git clone <repo-url>
-cd url-shortener
+git clone <https://github.com/Ashutosh-koli/shortener-url-task>
+cd shortener-url-task
 npm install
 cp .env.example .env
 ```
