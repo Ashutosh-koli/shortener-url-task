@@ -15,7 +15,7 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
 
-  // ✅ Redirect "/" to "/docs"
+
   app.getHttpAdapter().get('/', (req, res) => {
     res.redirect('/docs');
   });

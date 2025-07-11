@@ -16,7 +16,7 @@ export class Url extends Document {
   clicks: number;
 
   @Prop()
-  userId: string; // For authenticated users
+  userId: string;
 }
 
 export const UrlSchema = SchemaFactory.createForClass(Url);

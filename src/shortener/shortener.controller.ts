@@ -15,7 +15,7 @@ export class ShortenerController {
 @ApiBearerAuth()
 @Post('api/shorten')
 async shortenUrl(@Body() body: CreateUrlDto, @Req() req) {
-  console.log(req.user); // <- This should log user info from token
+  console.log(req.user);
   return this.shortenerService.createShortUrl({ ...body, userId: req.user.userId });
 }
 @Get('r/:shortCode')
