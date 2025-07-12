@@ -57,4 +57,7 @@ Authorization: Bearer <token>
 - Swagger
 - Docker
 
+## 📽 Demo Video
+[Include Loom or Google Drive link.](https://www.loom.com/share/d6755f1f873645e290acee1bfabfdb2c?sid=75bd5641-b9fc-48b5-a833-95e4006f036c)
+
 
